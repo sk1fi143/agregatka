@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/all.css" />
+    <link rel="stylesheet" href="./styles/components/popup-town.css" />
+    <title>Агрегатка | Ремонт АКПП</title>
+  </head>
+
+  <body>
+    <button id="openBtnT">Показать попап</button>
+    <div class="overlay" id="popupOverlayT">
+      <div class="popup-town">
+        <button class="closeBtn" id="closeBtnT">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.52344 23.4861L13.0087 13.0009M13.0087 13.0009L23.4939 2.51562M13.0087 13.0009L2.52344 2.51562M13.0087 13.0009L23.4939 23.4861"
+              stroke="#003A91"
+              stroke-width="3"
+              stroke-linecap="square"
+            />
+          </svg>
+        </button>
+        <span class="popup-town__title">Ваш город Казань?</span>
+        <div class="popup-town__buttons">
+          <button id="correctBtnT" class="popup-town__button">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="32" cy="32" r="32" fill="#003A91" />
+              <path
+                d="M22.668 33.334L28.0013 38.6673L41.3346 25.334"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+            <span class="popup-town__button-txt">ПОДТВЕРДИТЬ</span>
+          </button>
+          <button id="choiceBtnT" class="popup-town__button">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="32" cy="32" r="31.5" stroke="#003A91" />
+              <line x1="40" y1="32" x2="24" y2="32" stroke="#003A91" stroke-width="2" />
+            </svg>
+            <span class="popup-town__button-txt">ВЫБРАТЬ ДРУГОЙ</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="popupOverlayC">
+      <div class="popup-choice-town">
+        <button class="closeBtn" id="closeBtnC">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.52344 23.4861L13.0087 13.0009M13.0087 13.0009L23.4939 2.51562M13.0087 13.0009L2.52344 2.51562M13.0087 13.0009L23.4939 23.4861"
+              stroke="#003A91"
+              stroke-width="3"
+              stroke-linecap="square"
+            />
+          </svg>
+        </button>
+        <span class="popup-choice-town__title">Выберите город</span>
+        <div class="popup-choice-town__list">
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Б</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Барнаул</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">В</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Волгоград</span>
+              <span class="popup-choice-town__name">Воронеж</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Е</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Екатеринбург</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">И</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Ижевск</span>
+              <span class="popup-choice-town__name">Иркутск</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Е</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Екатеринбург</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">К</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Казань</span>
+              <span class="popup-choice-town__name">Киров </span>
+              <span class="popup-choice-town__name">Краснодар</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">М</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Магнитогорск</span>
+              <span class="popup-choice-town__name">Москва </span>
+              <span class="popup-choice-town__name"> Мурманск</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Н</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Набережные челны</span>
+              <span class="popup-choice-town__name">Нижневартовск </span>
+              <span class="popup-choice-town__name"> Нижний новгород</span>
+              <span class="popup-choice-town__name"> Новосибирск</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">О</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Оренбург</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">С</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Сургут</span>
+              <span class="popup-choice-town__name">Сыктывкар</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">П</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Пермь</span>
+              <span class="popup-choice-town__name">Петрозаводск</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Р</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Ростов-на-Дону</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">С</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Самара</span>
+              <span class="popup-choice-town__name">Санкт-Петербург</span>
+              <span class="popup-choice-town__name">Сочи</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Т</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name">Тольяти</span>
+              <span class="popup-choice-town__name">Тюмень</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">У</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name"> Ульяновск</span>
+              <span class="popup-choice-town__name">Уфа</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Ч</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name"> Чебоксары</span>
+              <span class="popup-choice-town__name">Челябинск</span>
+            </div>
+          </div>
+          <div class="popup-choice-town__item">
+            <span class="popup-choice-town__letter">Я</span>
+            <div class="popup-choice-town__names">
+              <span class="popup-choice-town__name"> Ярославль</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script/popup-town.js"></script>
+    <script src="script/capcha/key.js"></script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+  </body>
+</html>

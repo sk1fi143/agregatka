@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/all.css" />
+    <link rel="stylesheet" href="./styles/components/popupFOS.css" />
+    <title>Агрегатка | Ремонт АКПП</title>
+  </head>
+  <body>
+    <button class="openFOSBtn">Показать попап</button>
+    <div class="overlay" id="popupOverlay">
+      <div class="popupFOS">
+        <button class="closeBtn" id="closeBtn">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.52344 23.4861L13.0087 13.0009M13.0087 13.0009L23.4939 2.51562M13.0087 13.0009L2.52344 2.51562M13.0087 13.0009L23.4939 23.4861"
+              stroke="#003A91"
+              stroke-width="3"
+              stroke-linecap="square"
+            />
+          </svg>
+        </button>
+        <span class="popupFOS__title">Записаться на сервис</span>
+        <span class="popupFOS__info"
+          >Оставьте свои данные и мы свяжемся с вами в ближайшее время для уточнения деталей.</span
+        >
+        <div class="popupFOS__inputs">
+          <div class="popupFOS__inputs-row">
+            <input class="popupFOS__input input-row" placeholder="Имя" />
+            <input class="popupFOS__input input-row" placeholder="Телефон" />
+          </div>
+          <input class="popupFOS__input" placeholder="Описание проблемы" />
+        </div>
+        <div class="popupFOS__capcha">
+          <form action="?" method="POST">
+            <div id="html_element"></div>
+            <br />
+          </form>
+          <span class="popupFOS__pol-conf"
+            >Нажимая «Отправить», вы соглашаетесь с правилами обработки данных и политикой
+            конфиденциальности</span
+          >
+        </div>
+        <button id="sendBtn"  class="popupFOS__send">
+          <svg
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="32" cy="32" r="32" fill="#003A91" />
+            <path d="M24 32H32M32 32H40M32 32V24M32 32V40" stroke="white" stroke-width="2" />
+          </svg>
+          <span class="popupFOS__pol-conf-txt">ОТПРАВИТЬ</span>
+        </button>
+      </div>
+    </div>
+    <script src="../script/popupFOS.js"></script>
+    <script src="../script/capcha/key.js"></script>
+    <script
+      src="../https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+  </body>
+</html>

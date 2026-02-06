@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/all.css" />
+    <link rel="stylesheet" href="./styles/all.css" />
+    <link rel="stylesheet" href="../styles/components/consultation.css">
+    <title>Агрегатка | Ремонт АКПП</title>
+  </head>
+  <body>
+    <div class="consultation dark-cons">
+      <h2 class="consultation__title dark-title">Получить консультацию<br />или записаться<br />на ремонт</h2>
+      <div class="consultation__info">
+        <span class="consultation__txt dark-txt">Позаботьтесь о долгосрочной работе вашей коробки передач — запишитесь
+          на обслуживание в
+          удобное время.</span>
+        <div class="consultation__form">
+          <div class="popupFOS__inputs dark-inputs">
+            <div class="popupFOS__inputs-row">
+              <input class="popupFOS__input input-row" placeholder="Имя" />
+              <input class="popupFOS__input input-row" placeholder="Телефон" />
+            </div>
+            <input class="popupFOS__input" placeholder="Описание проблемы" />
+          </div>
+          <div class="popupFOS__capcha">
+            <form action="?" method="POST">
+              <div id="html_element"></div>
+              <br />
+            </form>
+            <span class="popupFOS__pol-conf dark-pol">Нажимая «Отправить», вы соглашаетесь с правилами обработки данных и
+              политикой
+              конфиденциальности</span>
+          </div>
+          <button class="popupFOS__send">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="32" fill="white" />
+              <path d="M24 32H32M32 32H40M32 32V24M32 32V40" stroke="#003A91" stroke-width="2" />
+            </svg>
+            <span class="popupFOS__pol-conf-txt dark-button-txt">ОТПРАВИТЬ</span>
+          </button>
+        </div>
+      </div>
+      <img class="consultation__img" src="img/consultation.png" alt="Картинка блока консультации">
+    </div>
+    <script src="script/capcha/key.js"></script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+  </body>
+</html>
