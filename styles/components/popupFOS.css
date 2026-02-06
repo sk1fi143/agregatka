@@ -1,0 +1,457 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.56);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popupFOS {
+  width: 902px;
+  z-index: 999;
+  height: 718px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 64px;
+}
+
+.closeBtn {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 45.51px;
+  top: 45.52px;
+  cursor: pointer;
+}
+
+.popupFOS__title {
+  font-family: 'Stetica';
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.popupFOS__info {
+  font-family: 'Stetica';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+  margin-top: 48px;
+  opacity: 64%;
+}
+
+.popupFOS__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  row-gap: 32px;
+}
+
+.popupFOS__inputs-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 32px;
+}
+
+.popupFOS__input {
+  height: 64px;
+  border: none;
+  border-bottom: 1px solid var(--strokeonwhite);
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.input-row {
+  width: calc(50% - 16px);
+}
+
+.popupFOS__input-row::placeholder {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.popupFOS__capcha {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popupFOS__pol-conf {
+  max-width: 371px;
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  color: var(--black-text);
+  opacity: 64%;
+}
+
+.popupFOS__send {
+  display: flex;
+  background: none;
+  border: none;
+  column-gap: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popupFOS__pol-conf-txt {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+.popupFOS {
+  width: auto;
+  height: auto;
+  margin: 59px 26px;
+  padding: 26px;
+}
+
+.closeBtn {
+  right: 26px !important;
+  top: 26px !important;
+  width: 40px;
+  height: 40px;
+}
+
+.popupFOS__title {
+  font-size: 40px;
+  line-height: 100%;
+  max-width: 90%;
+}
+
+.popupFOS__info {
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.popupFOS__inputs {
+  flex-direction: column;
+  margin-top: 48px;
+  row-gap: 24px;
+}
+
+.popupFOS__inputs-row {
+  flex-direction: column !important;
+  width: 100% !important;
+  row-gap: 24px;
+}
+
+.popupFOS__input {
+  height: 48px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.input-row {
+  width: 100% !important;
+}
+
+.popupFOS__input-row::placeholder {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.popupFOS__capcha {
+  flex-direction: row !important;
+  column-gap: 20px;
+  align-items: start;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.popupFOS__capcha form {
+  height: 70px;
+}
+
+.popupFOS__pol-conf {
+  max-width: 100% !important;
+  font-size: 12px;
+  margin-top: 0px;
+  line-height: 16px;
+}
+
+.popupFOS__send {
+  display: flex;
+  background: var(--blue) !important;
+  margin-top: 32px;
+  border-radius: 12px;
+  border: none;
+  column-gap: 18px;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  cursor: pointer;
+}
+
+.popupFOS__pol-conf-txt {
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white !important;
+}
+
+.popupFOS__send svg {
+  width: 40px;
+  height: 40px;
+}
+
+.popupFOS__send circle {
+  fill: white;
+}
+
+.popupFOS__send path {
+  stroke: var(--blue);
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+  
+.popupFOS {
+  width: auto;
+  height: auto;
+  margin: 59px 16px;
+  padding: 24px 16px;
+}
+
+.closeBtn {
+  right: 16px !important;
+  top: 16px !important;
+  width: 40px;
+  height: 40px;
+}
+
+.popupFOS__title {
+  font-size: 32px;
+  line-height: 100%;
+  max-width: 90%;
+}
+
+.popupFOS__info {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.popupFOS__inputs {
+  flex-direction: column;
+  margin-top: 48px;
+  row-gap: 24px;
+}
+
+.popupFOS__inputs-row {
+  flex-direction: column !important;
+  width: 100% !important;
+  row-gap: 24px;
+}
+
+.popupFOS__input {
+  height: 48px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.input-row {
+  width: 100% !important;
+}
+
+.popupFOS__input-row::placeholder {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.popupFOS__capcha {
+  flex-direction: column !important;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.popupFOS__capcha form {
+  height: 70px;
+}
+
+.popupFOS__pol-conf {
+  max-width: 100% !important;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 16px;
+}
+
+.popupFOS__send {
+  display: flex;
+  background: var(--blue) !important;
+  margin-top: 32px;
+  border-radius: 12px;
+  border: none;
+  column-gap: 18px;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+}
+
+.popupFOS__pol-conf-txt {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white !important;
+}
+
+.popupFOS__send svg {
+  width: 26px;
+  height: 26px;
+}
+
+.popupFOS__send circle {
+  fill: white;
+}
+
+.popupFOS__send path {
+  stroke: var(--blue);
+}
+}
+
+@media (max-width: 439px) {
+
+.popupFOS {
+  width: auto;
+  height: auto;
+  margin: 59px 16px;
+  padding: 24px 16px;
+}
+
+.closeBtn {
+  right: 16px !important;
+  top: 16px !important;
+  width: 40px;
+  height: 40px;
+}
+
+.popupFOS__title {
+  font-size: 32px;
+  line-height: 100%;
+  max-width: 90%;
+}
+
+.popupFOS__info {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.popupFOS__inputs {
+  flex-direction: column;
+  margin-top: 48px;
+  row-gap: 24px;
+}
+
+.popupFOS__inputs-row {
+  flex-direction: column !important;
+  width: 100% !important;
+  row-gap: 24px;
+}
+
+.popupFOS__input {
+  height: 48px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.input-row {
+  width: 100% !important;
+}
+
+.popupFOS__input-row::placeholder {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.popupFOS__capcha {
+  flex-direction: column !important;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.popupFOS__capcha form {
+  height: 70px;
+}
+
+.popupFOS__pol-conf {
+  max-width: 100% !important;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 16px;
+}
+
+.popupFOS__send {
+  display: flex;
+  background: var(--blue) !important;
+  margin-top: 32px;
+  border-radius: 12px;
+  border: none;
+  column-gap: 18px;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
+  height: 48px;
+  cursor: pointer;
+}
+
+.popupFOS__pol-conf-txt {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white !important;
+}
+
+.popupFOS__send svg {
+  width: 26px;
+  height: 26px;
+}
+
+.popupFOS__send circle {
+  fill: white;
+}
+
+.popupFOS__send path {
+  stroke: var(--blue);
+}
+}

@@ -1,0 +1,107 @@
+@import '../../components/intro.css';
+@import '../../components/dark-footer.css';
+@import '../../components/consultation.css';
+@import '../../components/darkconclusion.css';
+@import '../../components/map.css';
+@import '../diagnostic/technologies.css';
+@import '../../components/cost.css';
+@import '../repair-akpp/repair-cases.css';
+@import '../../components/discount.css';
+@import '../diagnostic/advantages.css';
+@import '../../components/advantages.css';
+@import "../../components/markstypes.css";
+@import '../price.css';
+@import '../../components/сircle-scroll.css';
+
+.repair-cases__container:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.repair-cases {
+    padding-bottom: 120px;
+    row-gap: 40px;
+}
+
+.repair-cases__title {
+    margin-bottom: 56px;
+}
+
+.cost {
+    margin-top: 0;
+}
+
+.advantages {
+    padding: 120px 0;
+}
+
+.stocks__title, .stocks__link-txt, .stocks__name, .stocks__info {
+    color: white;
+}
+.stocks__info {
+    opacity: 0.64;
+}
+
+.markstypes {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.repair-cases {
+        padding-bottom: 80px;
+    }
+    .advantages {
+    padding: 100px 0;
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.repair-cases {
+        padding-bottom: 40px;
+    }
+    .advantages {
+    padding: 80px 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.repair-cases__container-item:nth-last-child(1) {
+    border-bottom: 1px solid #616161;
+}
+    .repair-cases {
+        row-gap: 0px;
+        padding-bottom: 60px;
+    }
+    .advantages {
+    padding: 60px 0;
+    padding-bottom: 0;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.repair-cases__container-item:nth-last-child(1) {
+    border-bottom: 1px solid #616161;
+}
+    .repair-cases {
+        row-gap: 0px;
+        padding-bottom: 40px;
+    }
+    .advantages {
+    padding: 40px 0;
+    padding-bottom: 0;
+}
+}
+
+@media (max-width: 439px) {
+.repair-cases__container-item:nth-last-child(1) {
+    border-bottom: 1px solid #616161;
+}
+    .repair-cases {
+        row-gap: 0px;
+        padding-bottom: 40px;
+    }
+    .advantages {
+    padding: 0px 0;
+}
+}

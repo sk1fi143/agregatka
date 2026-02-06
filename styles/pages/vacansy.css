@@ -1,0 +1,577 @@
+.technologies {
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.pagination {
+  margin-bottom: 40px;
+}
+
+.circleScr-content__circle-num {
+  text-align: center;
+}
+
+.circleScr {
+  padding: 40px 48px;
+}
+
+#circleScr1 {
+  height: 100%;
+}
+
+.stocks-cards__wrapper {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  height: 340px;
+  width: auto;
+  border: 1px solid var(--blue);
+  justify-content: space-between;
+}
+
+.price-card-content__top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  background-color: var(--blue);
+  margin-right: auto;
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: var(--white);
+}
+
+.price-card-content__top__title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.price-card-content__bottom-zp {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  color: var(--black-text);
+}
+
+.price-card-content__bottom-value {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.price-menus {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+}
+
+.price-manu__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--blue);
+  column-gap: 8px;
+  margin-top: auto;
+  background: none;
+  cursor: pointer;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.technologies {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.pagination {
+  margin-bottom: 40px;
+}
+
+.circleScr {
+  padding: 40px 48px;
+}
+
+.stocks-cards__wrapper {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.price-card {
+  padding: 32px;
+  height: 340px;
+}
+
+.price-card-content__top {
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-card-content__top__title {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.price-card-content__bottom-zp {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.price-card-content__bottom-value {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price-menus {
+  column-gap: 32px;
+}
+
+.price-manu__button {
+  padding: 8px;
+  column-gap: 8px;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.technologies {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.circleScr {
+  padding: 40px 48px;
+}
+
+.stocks-cards__wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.price-card {
+  padding: 32px;
+  height: 340px;
+}
+
+.price-card:nth-last-child(1) {
+  display: none;
+}
+
+.price-card-content__top {
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-card-content__top__title {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.price-card-content__bottom-zp {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.price-card-content__bottom-value {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price-menus {
+  column-gap: 32px;
+}
+
+.price-manu__button {
+  padding: 8px;
+  column-gap: 8px;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.technologies {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.stocks {
+  padding: 0 16px;
+}
+
+.pagination {
+  margin-bottom: 48px;
+}
+
+.stocks-cards__wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.price-card {
+  padding: 16px;
+  height: 280px;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price-card:nth-last-child(1) {
+  display: none;
+}
+
+.price-card-content__top {
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.price-card-content__top__title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: auto;
+}
+
+.price-card-content__bottom-zp {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: auto;
+}
+
+.price-card-content__bottom-value {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price-menus {
+  column-gap: 18px;
+  margin-top: 0;
+  flex-direction: row;
+}
+
+.price-manu__button {
+  padding: 8px;
+  width: 120px;
+  column-gap: 8px;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.technologies {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.stocks {
+  padding: 0 16px;
+}
+
+.pagination {
+  margin-bottom: 48px;
+}
+
+.stocks-cards__wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.price-card {
+  padding: 16px;
+  height: 280px;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price-card-content__top {
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.price-card-content__top__title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: auto;
+}
+
+.price-card-content__bottom-zp {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: auto;
+}
+
+.price-card-content__bottom-value {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price-menus {
+  row-gap: 18px;
+  margin-top: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.price-manu__button {
+  padding: 8px;
+  width: 120px;
+  column-gap: 8px;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+}
+
+@media (max-width: 439px) {
+.technologies {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.stocks {
+  padding: 0 16px;
+}
+
+.pagination {
+  margin-bottom: 48px;
+}
+
+.stocks-cards__wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.price-card {
+  padding: 16px;
+  height: 280px;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price-card-content__top {
+  row-gap: 24px;
+}
+
+.price-card-content__bottom {
+  row-gap: 6px;
+}
+
+.price-card-content__top-town {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.price-card-content__top__title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: auto;
+}
+
+.price-card-content__bottom-zp {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: auto;
+}
+
+.price-card-content__bottom-value {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.price-menus {
+  row-gap: 18px;
+  margin-top: 0;
+  flex-direction: column;
+}
+
+.price-manu__button {
+  padding: 8px;
+  width: 120px;
+  column-gap: 8px;
+}
+
+.about-company__why-we {
+  margin-top: 0px;
+  row-gap: 0px;
+  padding: 0px;
+}
+
+.about-company__why-we-reason-txt {
+  margin-top: auto;
+}
+
+.about-company__why-we-garant {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-company__why-we-reason {
+  padding: 48px;
+  height: 560px;
+}
+}

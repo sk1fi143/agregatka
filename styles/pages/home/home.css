@@ -1,0 +1,38 @@
+@import "./dillers.css";
+@import "../../components/cooperation.css";
+@import "../../components/map.css";
+@import "./repair.css";
+@import "./services.css";
+@import "../../components/discount.css";
+@import "./mapWeb.css";
+@import "../../components/consultation.css";
+@import "../../components/advantages.css";
+@import "./repair-now.css";
+@import "./home-main.css";
+
+.discount {
+  background: var(--black-text);
+  border-top: 1px solid #616161;
+}
+
+.freeDiag-mob {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .map {
+    margin-top: 0;
+  }
+
+  .discount {
+    background: var(--blue);
+  }
+
+  .freeDiag-desc {
+    display: none;
+  }
+
+  .freeDiag-mob {
+    display: block;
+  }
+}

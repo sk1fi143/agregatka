@@ -1,0 +1,280 @@
+.repair {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    padding: 43px 48px;
+    background: #FBFAF7;
+    align-items: center;
+}
+
+.repair__gif {
+    width: 923px;
+    height: 392px;
+    rotate: -30deg;
+}
+
+.repair__line {
+    width: 0.5px;
+    height: 794px;
+    background: #D4D4D4;
+    margin-left: -50px;
+    z-index: 9;
+}
+
+.repair__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: start;
+    flex: 1;
+}
+
+.repair__container-title {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 80px;
+    color: var(--black-text);
+}
+
+.repair__container-list {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.repair__container-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 16px;
+    border-bottom: 1px solid #D4D4D4;
+    cursor: pointer;
+}
+
+.repair__container-list-item-text {
+    font-family: 'Stetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black-text);
+}
+
+.repair__container-list-item-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .repair {
+    column-gap: 50px;
+    padding: 43px 48px;
+}
+
+.repair__gif {
+    width: 50%;
+    height: auto;
+    rotate: -30deg;
+}
+
+.repair__line {
+    width: 0.5px;
+    height: 700px;
+    margin-left: -50px;
+}
+
+.repair__container {
+    row-gap: 40px;
+}
+
+.repair__container-title {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.repair__container-list-item {
+    padding: 24px 16px;
+}
+
+.repair__container-list-item-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.repair__container-list-item-icon {
+    width: 32px;
+    height: 32px;
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.repair {
+    column-gap: 50px;
+    padding: 36px;
+}
+
+.repair__gif {
+    width: 50%;
+    height: auto;
+    rotate: -30deg;
+}
+
+.repair__line {
+    width: 0.5px;
+    height: 500px;
+    margin-left: -50px;
+}
+
+.repair__container {
+    row-gap: 30px;
+}
+
+.repair__container-title {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.repair__container-list-item {
+    padding: 20px 12px;
+}
+
+.repair__container-list-item-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.repair__container-list-item-icon {
+    width: 24px;
+    height: 24px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.repair {
+    flex-direction: column-reverse;
+    padding: 48px 24px;
+    row-gap: 48px;
+}
+
+.repair__gif {
+    width: 100%;
+    height: auto;
+    rotate: 0deg;
+}
+
+.repair__line {
+    display: none;
+}
+
+.repair__container {
+    row-gap: 30px;
+    width: 100%;
+}
+
+.repair__container-title {
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.repair__container-list-item {
+    padding: 16px 0;
+}
+
+.repair__container-list-item-text {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.repair__container-list-item-icon {
+    width: 24px;
+    height: 24px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.repair {
+    flex-direction: column-reverse;
+    padding: 48px 16px;
+    row-gap: 48px;
+}
+
+.repair__gif {
+    width: 100%;
+    height: auto;
+    rotate: 0deg;
+}
+
+.repair__line {
+    display: none;
+}
+
+.repair__container {
+    row-gap: 30px;
+    width: 100%;
+}
+
+.repair__container-title {
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.repair__container-list-item {
+    padding: 16px 0;
+}
+
+.repair__container-list-item-text {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.repair__container-list-item-icon {
+    width: 24px;
+    height: 24px;
+}
+}
+
+@media (max-width: 439px) {
+.repair {
+    flex-direction: column-reverse;
+    padding: 48px 16px;
+    row-gap: 48px;
+}
+
+.repair__gif {
+    width: 100%;
+    height: auto;
+    rotate: 0deg;
+}
+
+.repair__line {
+    display: none;
+}
+
+.repair__container {
+    row-gap: 30px;
+    width: 100%;
+}
+
+.repair__container-title {
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.repair__container-list-item {
+    padding: 16px 0;
+}
+
+.repair__container-list-item-text {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.repair__container-list-item-icon {
+    width: 24px;
+    height: 24px;
+}
+}

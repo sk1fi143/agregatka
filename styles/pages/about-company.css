@@ -1,0 +1,1629 @@
+@import './home/home-main.css';
+@import './services-list.css';
+@import './repair-akpp/scheme.css';
+
+.scheme {
+  background: var(--black-text);
+  padding-bottom: 64px;
+}
+
+.scheme-col-text {
+  color: var(--white);
+  opacity: 0.64;
+}
+
+.scheme-col-title,
+.scheme-col-numbers-num,
+.scheme-col-numbers-count,
+.scheme-nav-info-text {
+  color: var(--white);
+}
+
+.scheme-nav-buttons-button {
+  background: white;
+}
+
+.scheme-nav-buttons-button-arrow path {
+  stroke: var(--blue);
+}
+
+.breadcrumbs {
+  margin-left: 8px !important;
+}
+
+.about-company__production {
+  overflow: hidden;
+  margin-top: 72px;
+  width: 100%;
+  height: 848px;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  padding: 64px 48px;
+  justify-content: space-between;
+}
+
+.about-company__production-line {
+  height: 100%;
+  width: 0px;
+  border: 0.5px solid #5181C9;
+}
+
+
+.about-company__production-img {
+  height: 574px;
+  margin-right: -64px;
+  margin-top: 129px;
+}
+
+.about-company__production-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.about-company__production-top-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+}
+
+.about-company__production-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__production-bottom-info {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: var(--white);
+  max-width: 585px;
+}
+
+.about-company__production-button {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+  cursor: pointer;
+  width: 183px;
+  background: none;
+  border: none;
+  align-items: center;
+}
+
+.about-company__production-button-txt {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.conclusion-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid var(--strokeonwhite);
+  margin-top: 120px;
+}
+
+.about-company__func-card {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-company__card-list {
+  width: 663px;
+  height: 832px;
+  background-color: var(--blue);
+  padding: 48px 48px 0px 48px;
+  position: relative;
+}
+
+.about-company__card-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__card-search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  margin-top: 44px;
+}
+
+.about-company__card-input-block {
+  width: 411px;
+  height: 100%;
+  border: 1px solid var(--white);
+  padding: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
+
+.about-company__card-input {
+  height: 62px;
+  width: 100%;
+  background: none;
+  border: none;
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__card-input::placeholder {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--white);
+  opacity: 64%;
+}
+
+.about-company__card-button-find {
+  width: 156px;
+  height: 100%;
+  border: none;
+  background-color: var(--white);
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.about-company__card-find-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  margin-top: 24px;
+  height: 560px;
+}
+
+.about-company__town-block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid var(--stroke-blue);
+  row-gap: 16px;
+  cursor: pointer;
+}
+
+.about-company__town-name {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  align-items: center;
+}
+
+.about-company__town {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__town-name svg {
+  margin: 6px 4px;
+}
+
+.about-company__element-info-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.about-company__element-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about-company__element-adress,
+.about-company__element-number {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.last-card-el {
+  margin-bottom: 50px;
+}
+
+.about-company__list-gradient {
+  position: absolute;
+  width: 563px;
+  height: 133px;
+  bottom: 0px;
+  left: 48px;
+  right: 52px;
+}
+
+.about-company__list-gradient {
+  background: linear-gradient(180deg, rgba(0, 58, 145, 0.16) 10.96%, #003A91 100%);
+}
+
+.about-company__card-find-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.about-company__card-find-list::-webkit-scrollbar-track {
+  background: #4375BF;
+  border-radius: 4px;
+}
+
+.about-company__card-find-list::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 4px;
+  border: 3px solid white;
+}
+
+.about-company__history {
+  width: 100%;
+  height: 844px;
+  background-color: var(--blue);
+  position: relative;
+  padding: 64px 0px 0px 48px;
+  margin-top: 52px;
+  overflow: hidden;
+}
+
+.about-company__history-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 880px;
+  position: relative;
+}
+
+.about-company__history-preimg {
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  right: 0px;
+}
+
+.about-company__history-img {
+  position: absolute;
+  top: 64px;
+  bottom: 64px;
+  right: 204px;
+  z-index: 1000;
+  opacity: 0.2;
+  width: 565px;
+  height: 565px;
+  z-index: 10;
+  top: 145px;
+  right: -100px;
+  transition: width 0.5s ease;
+  transition: height 0.5s ease;
+  transition: top 0.5s ease;
+  transition: right 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.about-company__history-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__history-line {
+  width: 701px;
+  height: 0px;
+  border: 1px solid var(--stroke-blue);
+  margin-left: 71px;
+}
+
+.about-company__history-year {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+  align-items: center;
+}
+
+.about-company__history-year-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-top: -20px;
+}
+
+.about-company__year {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--white);
+  opacity: 64%;
+}
+
+.about-company__year-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.about-company__year-txt {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: var(--white);
+  opacity: 64%;
+  max-width: 704px;
+}
+
+.about-company__history-radio {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.about-company__history-radio+label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+
+.about-company__history-radio+label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--white);
+  opacity: 64%;
+  transition: all 0.2s ease;
+  padding: auto;
+}
+
+.about-company__history-radio:checked+label::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 8px);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.about-company__history-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.about-company__history-gradient {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 58, 145, 0.16) 10.96%, #003A91 100%);
+  width: 769px;
+  height: 133px;
+  top: 640px;
+  left: 48px;
+}
+
+.about-company__history-buttons {
+  position: absolute;
+  top: 0px;
+  right: calc(100% - 600px);
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.about-company__history-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#history-list {
+  transition: margin-top 0.5s ease;
+}
+
+.about-company__history-hidden {
+  overflow: hidden;
+}
+
+.pre-img {
+  opacity: 1;
+  width: 716px;
+  height: 716px;
+  z-index: 11;
+  top: 64px;
+  right: 204px;
+}
+
+.active5 {
+  height: 48px;
+  position: absolute;
+  top: 64px;
+  z-index: 2;
+  background-color: var(--white);
+  right: 100px;
+  width: 317px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#block3 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 72px;
+  display: none;
+}
+
+#list2 {
+  display: none;
+}
+
+.services-list__navigation {
+  margin-top: 0px;
+}
+
+.about-company__production-img-adapt {
+  display: none;
+}
+
+.about-company__production-button-adapt {
+  display: none;
+}
+
+.active4 {
+  top: 64px;
+}
+
+.about-company__comand-but-adapt {
+  display: none;
+}
+
+.about-company__history-adapt {
+  background-color: var(--blue);
+  width: 100%;
+  height: auto;
+  padding: 48px;
+}
+
+.about-company__history-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.about-company__history-info-scroll-element {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-company__history-img-adapt {
+  width: 450px;
+  height: 450px;
+}
+
+.about-company__history-img-adapt-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about-company__history-adapt-year {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: var(--white);
+  opacity: 64%;
+}
+
+.about-company__history-adapt-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: var(--white);
+  margin-top: 40px;
+}
+
+.about-company__history-adapt-txt {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  color: var(--white);
+  margin-top: 40px;
+}
+
+.adapt-row {
+  position: relative;
+}
+
+#slickPrev {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 200px;
+  z-index: 999999;
+  left: -30px;
+}
+
+#slickNext {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 200px;
+  z-index: 999999;
+  right: -20px;
+}
+
+.about-company__history-adapt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-company__history-adapt {
+  display: none;
+}
+
+.about-company__history-info {
+  width: 100%;
+}
+
+.about-company__history-title {
+  margin-right: auto;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .scheme-nav-buttons {
+    right: 48px;
+    top: 47%;
+  }
+
+  .about-company__production-img {
+    height: 374px;
+    margin-right: -128px;
+    margin-top: 199px;
+    margin-right: -64px;
+  }
+
+  .about-company__comand-line {
+    display: none;
+  }
+
+  .about-company__comand-block {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+
+  .map_tabs {
+        left: 663px;
+    }
+
+  .active4 {
+    top: 64px;
+    right: 0px;
+  }
+
+  .about-company__why-we-reason-icon {
+    min-width: 104px;
+    min-height: 104px;
+     max-width: 104px;
+    max-height: 104px;
+  }
+
+  .about-company__history-buttons {}
+
+  .grid-el {
+    height: 600px;
+    padding: 24px;
+  }
+
+  .about-company__history-img {
+    right: -300px;
+  }
+
+  .pre-img {
+    right: -4px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about-company__production-img {
+    height: 374px;
+    right: 0px;
+    margin-top: 199px;
+    position: absolute;
+    opacity: 0.4;
+  }
+
+  .scheme-nav-buttons {
+    bottom: 140px;
+    right: 100px;
+  }
+
+  .about-company__history-adapt {
+  display: flex;
+}
+
+  .about-company__history {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+    .active4 {
+    top: 64px;
+    right: 0px;
+    margin-right: 0px;
+  }
+
+  .about-company__card-list {
+    width: 400px;
+  }
+
+  .map-tabs {
+    left: 500px;
+  }
+
+  .about-company__card-list {
+    padding: 16px;
+  }
+
+  .about-company__comand-img {
+    width: 50%;
+  }
+
+  .about-company__comand-line {
+    display: none;
+  }
+
+  .about-company__comand-block {
+    column-gap: 30px;
+  }
+
+  .about-company__comand-txt {
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .about-company__comand-pretitle {
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .about-company__comand-title {
+    font-size: 36px;
+    line-height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-company__production-img {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__card-list {
+    width: 100%;
+  }
+
+  .active4 {
+    top: 66px;
+    right: 0px;
+  }
+
+  .about-company__history-img-adapt {
+    width: 250px;
+    height: 250px;
+  }
+
+  .services-list__tab {
+    padding-bottom: 10px;
+  }
+
+  .about-company__card-input-block {
+    width: 100%;
+  }
+
+  
+
+  .about-company__production-title,
+  .about-company__why-we-title {
+    font-size: 46px;
+  }
+
+  .about-company__production-img-adapt {
+    display: block;
+    width: 100%;
+    margin: 40px 0px;
+  }
+
+  .about-company__production {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .about-company__production-button {
+    display: none;
+  }
+
+  .about-company__production-button-adapt {
+    display: flex;
+    width: 100%;
+    padding: 11px 0px;
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+    .about-company__history {
+    display: none;
+  }
+
+    .about-company__history-adapt {
+  display: flex;
+}
+
+  .about-company__production-button-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--black-text);
+    cursor: pointer;
+  }
+
+  .about-company__production-img {
+    height: 374px;
+    right: 0px;
+    margin-top: 199px;
+    position: absolute;
+    opacity: 0.4;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 40px;
+  }
+
+  .about-company__why-we {
+    row-gap: 32px;
+  }
+
+  #slickPrev {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 100px;
+  z-index: 999999;
+  left: -30px;
+}
+
+#slickNext {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 100px;
+  z-index: 999999;
+  right: -20px;
+}
+  
+  .about-company__comand-img {
+    width: 50%;
+  }
+
+  .about-company__comand-line {
+    display: none;
+  }
+
+  .about-company__comand-block {
+    column-gap: 30px;
+  }
+
+  .about-company__comand-txt {
+    font-size: 18px;
+    line-height: 100%;
+    font-size: 18px;
+    font-family: "Stetica";
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: var(--black-text);
+  }
+
+  .about-company__comand-pretitle {
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .about-company__comand {
+    padding: 0px 24px;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+  }
+
+  .about-company__comand-top {
+    column-gap: 20px;
+  }
+
+    .about-company__history-title {
+    font-size: 56px;
+  }
+
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+    .about-company__production-button-adapt {
+    display: flex;
+    width: 100%;
+    padding: 11px 0px;
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+  .about-company__comand-but-adapt {
+    display: flex;
+    width: 100%;
+    padding: 11px 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: var(--blue);
+    border: none;
+    column-gap: 12px;
+    cursor: pointer;
+  }
+
+  .about-company__history-info-scroll-element {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .about-company__history-title {
+    font-size: 44px;
+  }
+
+  #slickPrev {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  z-index: 999999;
+  left: -10px;
+}
+
+#slickNext {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  z-index: 999999;
+  right: -10px;
+}
+
+.about-company__history-img-adapt {
+  width: 100%;
+  height: auto;
+}
+
+  .about-company__history-adapt {
+    padding: 24px;
+  }
+
+  .about-company__comand-but-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+
+  .about-company__comand-link {
+    display: none;
+  }
+
+  .about-company__comand {
+    row-gap: 16px;
+  }
+
+  .about-company__comand-content {
+    row-gap: 24px;
+  }
+
+    .about-company__history-adapt {
+  display: flex;
+}
+
+  .about-company__comand-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .active4 {
+    top: 111px;
+    right: 0px;
+  }
+  
+  .about-company__card-input-block {
+    width: 100%;
+  }
+
+  .about-company__card-list {
+    width: 100%;
+    padding: 0px 16px;
+  }
+
+  .about-company__production-button-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--black-text);
+    cursor: pointer;
+  }
+
+  .about-company__production-img {
+    height: 374px;
+    right: 0px;
+    margin-top: 199px;
+    position: absolute;
+    opacity: 0.4;
+  }
+  .about-company__production-button {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__production-img {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .about-company__production-img-adapt {
+    display: block;
+    margin: 30px 0px;
+  }
+
+  .about-company__production-title,
+  .about-company__why-we-title {
+    font-size: 36px;
+  }
+  
+    .about-company__history {
+    display: none;
+  }
+
+  .about-company__production-bottom-info  {
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .about-company__production {
+    padding: 32px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 20px;
+  }
+
+  .about-company__why-we {
+    row-gap: 16px;
+  }
+
+    .about-company__why-we-title {
+    margin-left: 16px;
+  }
+
+    .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 40px;
+  }
+
+  .about-company__why-we {
+    row-gap: 32px;
+  }
+
+  
+  .about-company__comand-img {
+    width: 100%;
+  }
+
+  .about-company__comand-line {
+    display: none;
+  }
+
+  .about-company__comand-info {
+    row-gap: 16px;
+  }
+
+  .about-company__comand-block {
+    column-gap: 30px;
+  }
+
+  .about-company__comand-txt {
+    font-size: 18px;
+    font-family: "Stetica";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--black-text);
+  }
+
+  .about-company__comand-pretitle {
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .about-company__comand {
+    padding: 0px 24px;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+  }
+
+  .about-company__comand-top {
+    column-gap: 20px;
+  }
+
+  .about-company__comand-top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .services-list {
+    margin-top: 0;
+  }
+
+
+}
+
+@media (max-width: 439px) {
+    .about-company__comand-but-adapt {
+    display: flex;
+    width: 100%;
+    padding: 11px 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: var(--blue);
+    border: none;
+    column-gap: 12px;
+    cursor: pointer;
+  }
+
+    .about-company__history-info-scroll-element {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+
+  #slickPrev {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  z-index: 999999;
+  left: -10px;
+}
+
+#slickNext {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  z-index: 999999;
+  right: -10px;
+}
+
+.about-company__history-img-adapt {
+  width: 100%;
+  height: auto;
+}
+
+.about-company__history-adapt {
+  padding: 12px;
+}
+
+  .about-company__comand-but-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+
+  .about-company__comand-link {
+    display: none;
+  }
+
+  .about-company__comand {
+    row-gap: 16px;
+  }
+
+    .about-company__history-title {
+    font-size: 36px;
+  }
+
+    .about-company__history-adapt {
+  display: flex;
+}
+
+  .about-company__comand-content {
+    row-gap: 24px;
+  }
+
+  .about-company__comand-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .active4 {
+    top: 111px;
+    right: 0px;
+  }
+  
+  .about-company__card-input-block {
+    width: 100%;
+  }
+
+  .about-company__card-list {
+    width: 100%;
+    padding: 0px 16px;
+  }
+
+  .about-company__production-button-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--black-text);
+    cursor: pointer;
+  }
+
+    .about-company__history {
+    display: none;
+  }
+
+  .about-company__production-img {
+    height: 374px;
+    right: 0px;
+    margin-top: 199px;
+    position: absolute;
+    opacity: 0.4;
+  }
+  .about-company__production-button {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__production-img {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .about-company__production-img-adapt {
+    display: block;
+    margin: 30px 0px;
+  }
+
+  .about-company__production-title,
+  .about-company__why-we-title {
+    font-size: 36px;
+  }
+
+  .about-company__production-bottom-info  {
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .about-company__production {
+    padding: 32px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 20px;
+  }
+
+  .about-company__why-we {
+    row-gap: 16px;
+  }
+
+    .about-company__why-we-title {
+    margin-left: 16px;
+  }
+
+    .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 40px;
+  }
+
+  .about-company__why-we {
+    row-gap: 32px;
+  }
+
+  
+  .about-company__comand-img {
+    width: 100%;
+  }
+
+  .about-company__comand-line {
+    display: none;
+  }
+
+  .about-company__comand-info {
+    row-gap: 16px;
+  }
+
+  .about-company__comand-block {
+    column-gap: 30px;
+  }
+
+  .about-company__comand-txt {
+    font-family: "Stetica";
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--black-text);
+  }
+
+  .about-company__comand-pretitle {
+    font-size: 36px;
+    line-height: 100%;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .about-company__comand {
+    padding: 0px 24px;
+  }
+
+  .about-company__comand-title {
+    font-size: 32px;
+  }
+
+  .about-company__comand-top {
+    column-gap: 20px;
+  }
+
+  .about-company__comand-top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+      .about-company__production-button-adapt {
+    display: flex;
+    width: 100%;
+    padding: 11px 0px;
+    background-color: var(--white);
+    border-radius: 12px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+    .about-company__card-list {
+    width: 100%;
+    padding: 0px 16px;
+  }
+  
+  .about-company__why-we-garant {
+    margin-top: 20px;
+  }
+
+  .about-company__card-title {
+    margin-top: 100px;
+  }
+
+  .about-company__why-we {
+    row-gap: 16px;
+  }
+
+  .about-company__production-button-adapt-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--black-text);
+    cursor: pointer;
+  }
+
+  .about-company__production-img {
+    height: 374px;
+    right: 0px;
+    margin-top: 199px;
+    position: absolute;
+    opacity: 0.4;
+  }
+  .about-company__production-button {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+  }
+
+  .about-company__production-bottom-info {
+    width: 100%;
+    max-width: 9999px;
+  }
+
+  .about-company__production-img {
+    display: none;
+  }
+
+  .about-company__production-line {
+    display: none;
+  }
+
+  .about-company__production {
+    height: auto;
+  }
+
+  .about-company__production-img-adapt {
+    display: block;
+    margin: 30px 0px;
+  }
+
+  .about-company__production-title,
+  .about-company__why-we-title {
+    font-size: 32px;
+  }
+
+  .about-company__why-we-title {
+    margin-left: 12px;
+    line-height: 100%;
+  }
+
+  .about-company__production-bottom-info  {
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .about-company__production {
+    padding: 16px;
+  }
+}

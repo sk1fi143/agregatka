@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'Stetica';
+    box-sizing: border-box;
+  }
+  
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    color: black;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-text-fill-color: black;
+    -webkit-background-clip: text;
+  }
+  a,
+  span,
+  p,
+  b,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Stetica';
+  }
+  
+  a {
+    text-decoration: none;
+  }

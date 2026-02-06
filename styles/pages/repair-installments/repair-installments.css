@@ -1,0 +1,196 @@
+@import '../../components/intro.css';
+@import '../../components/why-we-garant.css';
+@import '../full-replacement.css';
+@import '../../components/discount.css';
+@import '../price.css';
+@import '../../components/consultation.css';
+@import '../../components/cooperation.css';
+@import '../../components/darkconclusion.css';
+@import '../../components/dark-footer.css';
+@import '../../components/сircle-scroll.css';
+@import './steps.css';
+@import './payment.css';
+@import './credit.css';
+
+.about-company__why-we-reason {
+    height: auto;
+    padding: 106px 48px 122px 48px;
+}
+
+.about-company__why-we-reason-number {
+    top: 106px;
+}
+
+.about-company__why-we {
+    margin-top: 160px;
+}
+
+.circleScr-content__circle-num {
+    font-size: 88px;
+    line-height: 100%;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .circleScr-content__circle-num {
+    font-size: 88px;
+    line-height: 100%;
+}
+.about-company__why-we-title {
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.about-company__why-we {
+    margin-top: 100px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .circleScr-content__circle-num {
+    font-size: 72px;
+    line-height: 100%;
+}
+.about-company__why-we-reasons {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-company__why-we-reason-txt {
+    margin-top: 30px;
+}
+
+.about-company__why-we-title {
+    font-size: 52px;
+    line-height: 100%;
+    margin-left: 36px;
+}
+
+.about-company__why-we-reason-number {
+    top: 40px;
+}
+
+.inst-reas {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-company__why-we-reason {
+    width: 34%;
+    padding: 40px 36px 40px 36px;
+}
+
+.about-company__why-we-reason svg {
+    width: 64px;
+    height: 64px;
+}
+
+.about-company__why-we-reason-title {
+    font-size: 28px;
+}
+
+.about-company__why-we {
+    margin-top: 80px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .circleScr-content__circle-num {
+    font-size: 54px;
+    line-height: 100%;
+}
+.about-company__why-we-reason {
+    width: auto;
+    padding: 40px 36px 40px 36px;
+}
+.about-company__why-we-reason svg {
+    width: 80px;
+    height: 80px;
+}
+.about-company__why-we-reason-number {
+    top: 40px;
+}
+
+.about-company__why-we-title {
+    font-size: 44px;
+    margin-left: 26px;
+    line-height: 100%;
+}
+
+.about-company__why-we-reason-txt {
+    margin-top: 20px;
+}
+
+.about-company__why-we {
+    margin-top: 60px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+    .circleScr-content__circle-num {
+    font-size: 42px;
+    line-height: 100%;
+}
+
+.about-company__why-we-reason {
+    width: auto;
+    padding: 40px 26px 40px 26px;
+}
+.about-company__why-we-reason svg {
+    width: 80px;
+    height: 80px;
+}
+.about-company__why-we-reason-number {
+    top: 40px;
+    right: 26px;
+}
+
+.about-company__why-we-title {
+    font-size: 36px;
+    margin-left: 16px;
+    line-height: 100%;
+}
+
+.about-company__why-we-reason-txt {
+    margin-top: 20px;
+}
+
+.about-company__why-we {
+    margin-top: 40px;
+}
+}
+
+@media (max-width: 439px) {
+.circleScr-content__circle-num {
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.about-company__why-we-reason {
+    width: auto;
+    padding: 40px 16px 40px 16px;
+}
+.about-company__why-we-reason svg {
+    width: 64px;
+    height: 64px;
+}
+.about-company__why-we-reason-number {
+    top: 40px;
+    right: 16px;
+}
+
+.about-company__why-we-title {
+    font-size: 32px;
+    margin-left: 16px;
+    line-height: 100%;
+}
+
+.about-company__why-we-reason-title {
+    font-size: 28px;
+}
+
+.about-company__why-we-reason-txt {
+    margin-top: 20px;
+}
+
+.about-company__why-we {
+    margin-top: 40px;
+}
+}

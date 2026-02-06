@@ -1,0 +1,652 @@
+.about-company__why-we-garant {
+  margin-top: 120px;
+  margin-bottom: 160px;
+  overflow: hidden;
+}
+
+.about-company__why-we {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+}
+
+.about-company__why-we-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+  margin-left: 48px;
+  max-width: 1118px;
+}
+
+.about-company__why-we-reasons {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-company__why-we-reason {
+  width: 25%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 48px 64px 48px;
+  border: 1px solid var(--strokeonwhite);
+  position: relative;
+}
+
+.about-company__why-we-reason-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  margin-top: 56px;
+}
+
+.about-company__why-we-reason-title-sm {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-top: 56px;
+}
+
+.grid-adapt {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-el {
+  width: auto !important;
+}
+
+.about-company__why-we-reason-txt {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  color: var(--black-text);
+  opacity: 72%;
+  margin-top: auto;
+}
+
+.about-company__why-we-reason-txt-sm {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -1%;
+  color: var(--black-text);
+  opacity: 72%;
+  margin-top: auto;
+}
+
+.about-company__why-we-reason-number {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: var(--black-text);
+}
+
+.about-company__why-we-reason-icon {
+  width: 104px;
+  height: 104px;
+}
+
+
+.about-company__garant-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.about-company__garant-scroll {
+  display: flex;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.about-company__garant-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.about-company__garant-scroll {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+}
+
+.about-company__garant {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 160px;
+  margin-left: 48px;
+}
+
+.about-company__garant-func {
+  display: flex;
+  flex-direction: column;
+  min-width: 726px;
+  height: 545px;
+}
+
+.about-company__garant-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.about-company__garant-txt {
+  margin-top: 48px;
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  max-width: 515px;
+  color: var(--black-text);
+}
+
+.about-company__garant-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  column-gap: 8px;
+}
+
+.about-company__garant-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.about-company__sertificat {
+  width: 412px;
+  position: relative;
+  height: 545px;
+  padding: 24px 31px;
+  border: 1px solid var(--strokeonwhite);
+}
+
+.sert svg {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.lb-close {
+  position: absolute;
+  top: -30px;
+  margin-left: 355px;
+}
+
+.last_el {
+  margin-right: 48px;
+}
+
+.about-company__comand {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  row-gap: 64px;
+  padding: 0px 48px;
+}
+
+.about-company__comand-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-company__comand-title {
+  max-width: 1320px;
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.about-company__comand-link {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+  align-items: center;
+}
+
+.about-company__comand-link-txt {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+.about-company__comand-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.about-company__comand-main-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid var(--strokeonwhite);
+}
+
+.about-company__comand-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-company__comand-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  max-width: 729px;
+}
+
+.about-company__comand-pretitle {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.about-company__comand-txt {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.about-company__comand-line {
+  left: 50%;
+  right: 50%;
+  height: 464px;
+  width: 0px;
+  border: 1px solid var(--strokeonwhite);
+}
+
+.sert-slider-mob {
+  display: none !important;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .grid-el {
+    padding: 36px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about-company__why-we-reason {
+    padding: 24px;
+    height: 400px;
+  }
+
+  .about-company__why-we-reason-number {
+    top: 16px;
+    right: 26px;
+  }
+
+  .about-company__why-we-reason-icon {
+  width: 64px;
+  height: 64px;
+}
+
+  .about-company__why-we-reason-title {
+    font-size: 34px;
+  }
+
+  .about-company__why-we-reason-txt {
+    font-size: 22px;
+  }
+
+  .about-company__garant-title {
+    font-size: 40px;
+  }
+
+  .about-company__garant-txt {
+    margin-top: 20px;
+  }
+
+  .about-company__garant {
+    column-gap: 20px;
+  }
+
+  .about-company__why-we-reasons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-company__why-we-reason {
+    width: auto;
+  }
+
+  .about-company__garant-buttons {
+    column-gap: 20px;
+    flex-direction: column;
+    position: relative;
+    row-gap: 40px;
+  }
+
+  .about-company__garant-buttons {
+    display: flex !important;
+    flex-direction: row;
+    margin-top: auto;
+    column-gap: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 545px;
+  }
+
+  .about-company__garant-func {
+    display: flex;
+    flex-direction: column;
+    min-width: 726px;
+  }
+
+  .about-company__garant {
+    column-gap: 20px;
+    flex-direction: column;
+    position: relative;
+    row-gap: 40px;
+  }
+
+  .about-company__garant-buttons {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    column-gap: 8px;
+    position: absolute;
+    right: 36px;
+    top: 16px;
+  }
+
+    .about-company__garant-func {
+      height: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 726px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-company__why-we-reasons {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .about-company__why-we-reason-title {
+    font-size: 36px;
+  }
+
+  .about-company__why-we-reason-txt {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+    height: 500px;
+  }
+
+  .about-company__garant-scroll {
+    display: none;
+  }
+
+  .about-company__garant {
+    margin-top: 30px;
+    margin-left: 24px;
+  }
+
+  .about-company__garant-title {
+    font-size: 40px;
+  }
+
+  .about-company__garant-txt {
+    margin-top: 20px;
+    max-width: 100%;
+    padding-right: 26px;
+  }
+
+  .about-company__garant {
+    column-gap: 20px;
+  }
+
+  .about-company__garant-buttons {
+    display: none;
+  }
+
+  .sert-slider-mob {
+    display: block !important;
+  }
+
+  .about-company__sertificat {
+    margin: 0px 10px;
+  }
+
+  .about-company__garant-func {
+    height: auto;
+  }
+
+  .sert-slider-mob {
+    margin-top: 20px;
+  }
+
+  .about-company__why-we-garant {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+  .about-company__why-we-reasons {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .about-company__why-we-reason-title {
+    font-size: 32px;
+  }
+
+  .about-company__why-we-reason-txt {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about-company__why-we-reason {
+    width: 100%;
+    height: 500px;
+  }
+
+  .about-company__why-we-reasons {
+    flex-direction: column;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+  }
+
+  .about-company__garant-scroll {
+    display: none;
+  }
+
+  .about-company__garant {
+    margin-top: 30px;
+    margin-left: 24px;
+  }
+
+  .about-company__garant-title {
+    font-size: 40px;
+  }
+
+  .about-company__garant-txt {
+    margin-top: 20px;
+        max-width: 100%;
+    padding-right: 16px;
+  }
+
+  .about-company__garant {
+    column-gap: 20px;
+  }
+
+  .about-company__garant-buttons {
+    display: none;
+  }
+
+  .sert-slider-mob {
+    display: block !important;
+  }
+
+  .about-company__sertificat {
+    margin: 0px 10px;
+  }
+
+  .about-company__garant-func {
+    height: auto;
+  }
+
+  .sert-slider-mob {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .about-company__why-we-garant {
+    margin-bottom: 40px;
+  }
+
+  .about-company__garant-func {
+    width: 100%;
+    min-width: 1px;
+  }
+
+  .about-company__garant-title {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 439px) {
+  .about-company__why-we-reasons {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .about-company__why-we-reasons {
+    flex-direction: column;
+  }
+
+  .about-company__why-we-reason-title {
+    font-size: 32px;
+  }
+
+  .about-company__why-we-reason-txt {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about-company__why-we-reason {
+    width: 100%;
+    height: 500px;
+  }
+
+  .about-company__garant-scroll {
+    display: none;
+  }
+
+  .about-company__garant {
+    margin-top: 30px;
+    margin-left: 24px;
+  }
+
+  .about-company__garant-title {
+    font-size: 40px;
+  }
+
+  .about-company__garant-txt {
+    margin-top: 20px;
+    line-height: 24px;
+  }
+
+  .about-company__garant {
+    column-gap: 20px;
+  }
+
+  .about-company__garant-buttons {
+    display: none;
+  }
+
+  .sert-slider-mob {
+    display: block !important;
+  }
+
+  .about-company__sertificat {
+    margin: 0px 10px;
+  }
+
+  .about-company__garant-func {
+    height: auto;
+  }
+
+  .sert-slider-mob {
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+
+  .about-company__why-we-garant {
+    margin-bottom: 40px;
+  }
+
+
+  .about-company__garant-func {
+    width: 100%;
+    min-width: 1px;
+  }
+
+  .about-company__garant-title {
+    line-height: 40px;
+  }
+
+  .about-company__garant-txt {
+    font-size: 16px;
+  }
+}

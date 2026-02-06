@@ -1,0 +1,64 @@
+@import "./fonts.css";
+@import "./normilize.css";
+@import "./variables.css";
+@import "./animations/hover.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/breadcrumbs.css";
+@import "./components/popupFOS.css";
+@import "./components/popup-town.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.white {
+  color: var(--white);
+}
+
+.header-container__bottom .white {
+  border-top: 1px solid #575757;
+}
+
+.chat {
+  position: absolute;
+  right: 48px;
+  top: -88px;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.vertical-scrolling {
+  min-height: 100vh;
+  display: flex;
+}
+
+div.fp-watermark {
+  display: none;
+}
+
+.fp-scroll-mac .fp-overflow::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.fp-table {
+  justify-content: start !important;
+  overflow: hidden !important;
+}
+
+@media (max-width: 1023px) {
+  .fp-scrollable.fp-responsive
+    .fp-is-overflow.fp-section:not(.fp-auto-height):not([data-percentage]),
+  .fp-scrollable .fp-section:not(.fp-auto-height):not([data-percentage]),
+  .fp-scrollable .fp-slide:not(.fp-auto-height):not([data-percentage]) {
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  .vertical-scrolling {
+    min-height: auto !important;
+    display: flex;
+  }
+
+  .fp-table {
+  overflow: visible !important;
+}
+}

@@ -1,0 +1,529 @@
+.about-company__why-we-reason {
+    width: 33.34%;
+}
+
+.replace {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-text);
+    width: 100%;
+    height: auto;
+    padding: 80px 0px 160px 0px;
+}
+
+.when-replace {
+    display: flex;
+    flex-direction: column;
+}
+
+.when-replace__top {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 96px);
+    justify-content: space-between;
+    margin: 0px 48px;
+    position: relative;
+}
+
+.when-replace__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    max-width: 842px;
+}
+
+.when-replace__title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.when-replace__txt {
+    font-family: "Stetica";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: var(--white);
+    opacity: 64%;
+}
+
+.when-replace__img {
+    position: absolute;
+    width: calc(50% + 48px);
+    border-radius: 50% 50% 100% 100%;
+    z-index: 2;
+    right: -48px;
+    top: -100px;
+    clip-path: inset(0 0 40% 0);
+}
+
+.when-replace__bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 232px;
+}
+
+.when-replace__bottom-el {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    grid-row: 24px;
+    padding: 32px 0px 32px 48px;
+    border: 1px solid var(--strokeonblack);
+    background-color: var(--black-text);
+    margin-top: -218px;
+    z-index: 1000;
+}
+
+.when-replace__bottom-el-info {
+    font-family: "Stetica";
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.when-replace__bottom-el-category {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+video {
+    margin: 120px 48px;
+    height: auto;
+}
+
+.consultation {
+    border-bottom: 1px solid var(--strokeonblack);
+}
+
+.intro-title {
+    max-width: 868px;
+}
+
+.intro-text {
+    max-width: 707px;
+}
+
+.whatis {
+    margin-top: 0px;
+    flex-shrink: 0;
+}
+
+.when-replace__img-adapt {
+    display: none;
+}
+
+  .sert-slider-mob {
+    display: none;
+  }
+
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .when-replace__img {
+        position: absolute;
+        width: calc(50% + 48px);
+        border-radius: 50% 50% 100% 100%;
+        z-index: 2;
+        right: -48px;
+        top: 0px;
+        clip-path: inset(0 0 40% 0);
+        opacity: 0.3;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .intro-img {
+        top: -100px;
+        bottom: auto;
+    }
+
+    .about-company__why-we-reasons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-replace__img {
+        position: absolute;
+        width: calc(50% + 48px);
+        border-radius: 50% 50% 100% 100%;
+        z-index: 2;
+        right: -48px;
+        top: 0px;
+        clip-path: inset(0 0 40% 0);
+        opacity: 0.3;
+    }
+
+    .when-replace__title,
+    .about-company__why-we-title,
+    .replace-swiper_title,
+    .consultation__title {
+        font-size: 52px;
+        line-height: 100%;
+    }
+
+    .replace-swiper {
+        margin-top: 60px;
+        row-gap: 40px;
+    }
+
+    .replace-slider-el {
+        min-width: 350px;
+    }
+
+      .grid-adapt {
+      display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-el {
+    width: auto;
+  }
+
+  .replace {
+    padding-bottom: 0px;
+  }
+
+  .about-company__why-we-reason svg {
+    min-width: 64px;
+    min-height: 64px;
+        max-width: 64px;
+    max-height: 64px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-company__why-we-reason {
+        width: 100%;
+    }
+
+      .about-company__garant {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .about-company__why-we-reasons {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .sert-slider-mob {
+    display: block;
+  }
+
+    .when-replace__title,
+    .about-company__why-we-title,
+    .replace-swiper_title,
+    .consultation__title  {
+        font-size: 52px;
+        line-height: 100%;
+    }
+
+    .replace-swiper {
+        margin-top: 40px;
+        row-gap: 40px;
+        padding-left: 24px;
+    }
+
+    .replace-slider-el {
+        min-width: 350px;
+    }
+
+    .when-replace__img-adapt {
+        display: block;
+        width: 50%;
+        margin: 30px auto 30px auto;
+    }
+
+    .when-replace__img {
+        position: absolute;
+        clip-path: inset(0 0 0% 0);
+        left: auto;
+        right: auto;
+        width: 450px;
+        left: calc(50% - 225px);
+        top: 480px;
+        display: none;
+    }
+
+    .when-replace__bottom {
+        margin-bottom: 0px
+    }
+
+    .when-replace__bottom-el-info {
+        font-size: 100px;
+    }
+
+    .when-replace__txt {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .when-replace__top {
+        flex-direction: column;
+    }
+
+    .replace-swiper {
+        margin-top: 0px;
+    }
+
+    .replace-video {
+        margin-bottom: 0px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+    .about-company__why-we-reason {
+        width: 100%;
+        padding: 24px;
+        height: 400px;
+    }
+
+    .replace {
+        padding-bottom: 30px;
+    }
+    
+    .replace-slider-el {
+        min-width: 350px;
+    }
+
+        .replace-video {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        height: 300px;
+    }
+
+        .replace-swiper {
+        margin-top: 40px;
+        row-gap: 40px;
+        padding-left: 24px;
+    }
+
+
+    .when-replace__img {
+        position: absolute;
+        clip-path: inset(0 0 0% 0);
+        left: auto;
+        right: auto;
+        width: 450px;
+        left: calc(50% - 225px);
+        top: 480px;
+        display: none;
+    }
+
+    .when-replace__img-adapt {
+        display: block;
+        width: 50%;
+        margin: -50px auto 30px auto;
+    }
+
+    .when-replace__title,
+    .about-company__why-we-title,
+    .replace-swiper_title,
+    .consultation__title  {
+        font-size: 36px;
+        line-height: 100%;
+    }
+
+    .about-company__why-we-title {
+        margin-left: 16px;
+    }
+
+    .about-company__why-we-reason svg {
+        width: 104px;
+        height: 104px;
+    }
+
+    .about-company__why-we-reason-number {
+        top: 32px;
+    }
+
+    .when-replace__bottom {
+        margin-bottom: 0px;
+        height: 10px;
+    }
+
+    .when-replace__bottom-el-info {
+        font-size: 100px;
+    }
+
+    .replace-swiper {
+        margin-top: 0px;
+    }
+
+    .when-replace__txt {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .when-replace__top {
+        flex-direction: column;
+        margin: 0px 24px;
+    }
+
+    .when-replace__info {
+        row-gap: 24px;
+    }
+
+    .when-replace__bottom-el-info {
+        font-size: 50px;
+        height: 80px;
+    }
+
+    .when-replace__bottom-el-category {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+}
+
+    .when-replace__bottom-el {
+        padding: 16px 0px 16px 16px;
+        height: 160px;
+    }
+
+       .about-company__why-we {
+        row-gap: 20px;
+    }
+
+      .sert-slider-mob {
+    display: block;
+  }
+
+        .about-company__garant {
+        column-gap: 20px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 439px) {
+    .about-company__why-we-reason {
+        width: 100%;
+        padding: 24px;
+        height: 400px;
+    }
+
+            .about-company__garant {
+        column-gap: 20px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+      .sert-slider-mob {
+    display: block;
+  }
+
+
+    .about-company__why-we-reason svg {
+        width: 64px;
+        height: 64px;
+    }
+
+    .about-company__why-we-reason-number {
+        top: 24px;
+    }
+        .when-replace__bottom {
+        margin-bottom: 0px;
+        height: 10px;
+    }
+
+        .replace {
+        padding-bottom: 30px;
+    }
+
+        .about-company__why-we-title {
+        margin-left: 16px;
+    }
+
+    .about-company__why-we {
+        row-gap: 20px;
+    }
+    
+        .replace-video {
+            margin: 20px 8px 0px 8px;
+        height: 300px;
+    }
+
+    .when-replace__bottom-el-info {
+        font-size: 100px;
+    }
+
+    .replace-swiper {
+        margin-top: 0px;
+    }
+
+    .when-replace__txt {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .when-replace__top {
+        flex-direction: column;
+        margin: 0px 24px;
+    }
+
+    .when-replace__info {
+        row-gap: 24px;
+    }
+
+    .when-replace__bottom-el-info {
+        font-size: 50px;
+        height: 80px;
+    }
+
+    .when-replace__bottom-el-category {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+}
+
+    .when-replace__bottom-el {
+        padding: 16px 0px 16px 16px;
+        height: 160px;
+    }
+
+    .when-replace__img {
+        display: none;
+    }
+
+    .when-replace__title,
+    .about-company__why-we-title,
+    .replace-swiper_title,
+    .consultation__title  {
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .when-replace__img-adapt {
+        display: block;
+        width: 70%;
+        margin: -50px auto 30px auto;
+    }
+
+    .replace-swiper {
+        margin-top: 0px;
+        padding-left: 16px;
+        row-gap: 20px;
+    }
+
+    .replace-slider-el  {
+        min-width: 350px;
+    }
+}

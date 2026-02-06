@@ -1,0 +1,269 @@
+.steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding: 160px 48px;
+}
+
+.steps__title {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    color: var(--black-text);
+}
+
+.steps__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.steps-row-btn {
+    display: none;
+}
+
+.steps__row-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 414px;
+    padding: 24px;
+    border: 1px solid #D4D4D4;
+}
+
+.steps__row-col:nth-child(2), .steps__row-col:nth-child(4) {
+    background: #F9F9FA;
+    border-left: none;
+    border-right: none;
+}
+
+.steps__row-col:nth-child(4) {
+    border-right: 1px solid #D4D4D4;
+}
+
+.steps__row-col-num {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--black-text);
+}
+
+.steps__row-col-text {
+    font-family: 'Stetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black-text);
+    letter-spacing: 0%;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.steps {
+    row-gap: 80px;
+    padding: 120px 48px;
+}
+
+.steps__title {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.steps__row {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.steps__row-col {
+    height: 380px;
+    padding: 24px;
+}
+
+.steps__row-col-num {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.steps__row-col-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.steps {
+    row-gap: 60px;
+    padding: 80px 36px;
+}
+
+.steps__title {
+    font-size: 52px;
+    line-height: 100%;
+}
+
+.steps__row {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.steps__row-col {
+    height: 320px;
+    padding: 20px;
+}
+
+.steps__row-col-num {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.steps__row-col-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.steps {
+    row-gap: 60px;
+    padding: 80px 36px;
+}
+
+.steps__title {
+    font-size: 52px;
+    line-height: 100%;
+}
+
+.steps__row {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.steps__row-col {
+    height: 320px;
+    background: #fff !important;
+    border-left: 1px solid #D4D4D4 !important;
+    border-right: 1px solid #D4D4D4 !important;
+    padding: 20px;
+}
+
+.steps__row-col-num {
+    font-size: 26px;
+    line-height: 100%;
+}
+
+.steps__row-col-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.steps {
+    row-gap: 40px;
+    padding: 48px 16px;
+    position: relative;
+}
+
+.steps__title {
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.steps__row {
+    display: flex;
+}
+
+.steps__row-col {
+    display: flex !important;
+    height: 300px;
+    padding: 16px;
+    margin: 0 6px;
+    border-left: 1px solid #D4D4D4 !important;
+    border-right: 1px solid #D4D4D4 !important;
+}
+
+.steps__row-col-num {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.steps__row-col-text {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.steps-row-btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: var(--blue);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.steps-row-btn__icon {
+    width: 24px;
+    height: 24px;
+}
+}
+
+@media (max-width: 439px) {
+.steps {
+    row-gap: 40px;
+    padding: 48px 16px;
+    position: relative;
+}
+
+.steps__title {
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.steps__row {
+    display: flex;
+}
+
+.steps__row-col {
+    height: 280px;
+    display: flex !important;
+    padding: 16px;
+    margin: 0 6px;
+    border-left: 1px solid #D4D4D4 !important;
+    border-right: 1px solid #D4D4D4 !important;
+}
+
+.steps__row-col-num {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.steps__row-col-text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.steps-row-btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: var(--blue);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.steps-row-btn__icon {
+    width: 24px;
+    height: 24px;
+}
+}

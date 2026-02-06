@@ -1,0 +1,308 @@
+.blue-color {
+    background-color: #003A91;
+}
+
+.parties-grey {
+    background-color: var(--black-text);
+}
+
+.cooperation-t {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    padding: 0px 48px;
+    row-gap: 96px;
+    position: relative;
+    height: 553px;
+}
+
+.cooperation__title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 72px;
+    color: var(--white);
+    line-height: 72px;
+    letter-spacing: 0%;
+}
+
+.cooperation__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    align-items: center;
+}
+
+.cooperation__contact-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.cooperation-car {
+    position: absolute;
+    transform: scale(-1, 1);
+    right: 0px;
+    bottom: 0px;
+}
+
+.faq {
+    margin-top: 160px;
+    padding-bottom: 160px;
+}
+
+.intro-img {
+    scale: 1;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.cooperation-t {
+    margin-top: 100px;
+    padding: 0px 48px;
+    row-gap: 80px;
+    height: 370px;
+}
+
+.cooperation__title {
+    font-size: 64px;
+    line-height: 100%;
+    z-index: 2;
+}
+
+.cooperation__contacts {
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    column-gap: 24px;
+}
+
+.cooperation__contact-txt {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.cooperation-car {
+    right: 0;
+    bottom: 0px;
+    object-fit: cover;
+    width: 60%;
+}
+
+.faq {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.intro-img {
+    scale: 0.6;
+  }
+
+  .cooperation-t {
+    margin-top: 80px;
+    padding: 0px 36px;
+    row-gap: 60px;
+    height: 300px;
+}
+
+.cooperation__title {
+    font-size: 52px;
+    line-height: 100%;
+    z-index: 2;
+}
+
+.cooperation__contacts {
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    column-gap: 24px;
+}
+
+.cooperation__contact-txt {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.cooperation-car {
+    right: 0;
+    bottom: 0px;
+    object-fit: cover;
+    width: 60%;
+}
+
+.faq {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cooperation-t {
+    margin-top: 64px;
+    padding: 0px 26px;
+    row-gap: 40px;
+    height: auto;
+    flex-direction: column;
+}
+
+.cooperation__title {
+    font-size: 52px;
+    line-height: 100%;
+    z-index: 2;
+}
+
+.cooperation__title br {
+    display: none;
+}
+
+.cooperation__contacts {
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    column-gap: 24px;
+}
+
+.cooperation__contact svg{
+    width: 38px;
+    height: 38px;
+}
+
+.cooperation__contact-txt {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.cooperation-car {
+    right: 0;
+    position: relative;
+    bottom: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    object-position: right;
+}
+
+.faq {
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+  .cooperation-t {
+    margin-top: 64px;
+    padding: 0px 16px;
+    row-gap: 30px;
+    height: auto;
+    flex-direction: column;
+}
+
+.cooperation__title {
+    font-size: 42px;
+    line-height: 100%;
+    z-index: 2;
+}
+
+.cooperation__title br {
+    display: none;
+}
+
+.cooperation__contacts {
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    column-gap: 24px;
+}
+
+.cooperation__contact svg{
+    width: 38px;
+    height: 38px;
+}
+
+.cooperation__contact-txt {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.cooperation-car {
+    right: 0;
+    position: relative;
+    bottom: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
+    object-position: right;
+}
+
+.faq {
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+}
+
+@media (max-width: 439px) {
+  .cooperation-t {
+    margin-top: 64px;
+    padding: 0px 16px;
+    row-gap: 30px;
+    height: auto;
+    flex-direction: column;
+}
+.cooperation__title br {
+    display: none;
+}
+
+.cooperation__title {
+    font-size: 32px;
+    line-height: 100%;
+    z-index: 2;
+}
+
+.cooperation__contacts {
+    row-gap: 20px;
+}
+
+.cooperation__contact {
+    column-gap: 24px;
+}
+
+.cooperation__contact svg{
+    width: 38px;
+    height: 38px;
+}
+
+.cooperation__contact-txt {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.cooperation-car {
+    right: 0;
+    position: relative;
+    bottom: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
+    object-position: right;
+}
+
+.faq {
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+}

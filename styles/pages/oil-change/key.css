@@ -1,0 +1,304 @@
+.key {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 160px 48px;
+}
+
+.key__title {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    color: var(--black-text);
+}
+
+.key__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #D4D4D4;
+    padding-top: 48px;
+}
+
+.key__box-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    max-width: 729px;
+}
+
+.key__box-col-title {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--black-text);
+}
+
+.key__box-col-text {
+    font-family: 'Stetica';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black-text);
+}
+
+.key__box-line {
+    width: 1px;
+    height: 464px;
+    background-color: #D4D4D4;
+}
+
+.key__box-img {
+    width: 854px;
+    height: 464px;
+    object-fit: cover;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.key {
+    row-gap: 64px;
+    padding: 120px 48px;
+}
+
+.key__title {
+    font-size: 64px;
+    line-height: 68px;
+}
+
+.key__box {
+    padding-top: 48px;
+}
+
+.key__box-col {
+    row-gap: 32px;
+    max-width: 45%;
+}
+
+.key__box-col-title {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.key__box-col-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.key__box-line {
+    height: 464px;
+}
+
+.key__box-img {
+    width: 50%;
+    height: auto;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.key {
+    row-gap: 48px;
+    padding: 60px 36px;
+}
+
+.key__title {
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.key__box {
+    padding-top: 30px;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.key__box-col {
+    row-gap: 28px;
+    max-width: 100%;
+}
+
+.key__box-col-title {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.key__box-col-title br {
+    display: none;
+}
+
+.key__box-col-text {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.key__box-line {
+    display: none;
+}
+
+.key__box-img {
+    width: 80%;
+    height: auto;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.key {
+    row-gap: 40px;
+    padding: 64px 26px 48px 26px;
+    border-top: 1px solid #D4D4D4;
+}
+
+.key__title {
+    font-size: 46px;
+    line-height: 100%;
+}
+
+.key__title br {
+    display: none;
+}
+
+.key__box {
+    padding-top: 0px;
+    flex-direction: column;
+    row-gap: 26px;
+    border: none;
+}
+
+.key__box-col {
+    row-gap: 28px;
+    max-width: 100%;
+}
+
+.key__box-col-title {
+    font-size: 36px;
+    line-height: 28px;
+}
+
+.key__box-col-title br {
+    display: none;
+}
+
+.key__box-col-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.key__box-line {
+    display: none;
+}
+
+.key__box-img {
+    width: 100%;
+    height: auto;
+    margin-top: 14px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.key {
+    row-gap: 40px;
+    padding: 64px 16px 48px 16px;
+    border-top: 1px solid #D4D4D4;
+}
+
+.key__title {
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.key__title br {
+    display: none;
+}
+
+.key__box {
+    padding-top: 0px;
+    flex-direction: column;
+    row-gap: 16px;
+    border: none;
+}
+
+.key__box-col {
+    row-gap: 28px;
+    max-width: 100%;
+}
+
+.key__box-col-title {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.key__box-col-title br {
+    display: none;
+}
+
+.key__box-col-text {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.key__box-line {
+    display: none;
+}
+
+.key__box-img {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+}
+}
+
+@media (max-width: 439px) {
+.key {
+    row-gap: 40px;
+    padding: 64px 16px 48px 16px;
+    border-top: 1px solid #D4D4D4;
+}
+
+.key__title {
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.key__title br {
+    display: none;
+}
+
+.key__box {
+    padding-top: 0px;
+    flex-direction: column;
+    row-gap: 16px;
+    border: none;
+}
+
+.key__box-col {
+    row-gap: 28px;
+    max-width: 100%;
+}
+
+.key__box-col-title {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.key__box-col-title br {
+    display: none;
+}
+
+.key__box-col-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.key__box-line {
+    display: none;
+}
+
+.key__box-img {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+}
+}

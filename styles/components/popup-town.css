@@ -1,0 +1,406 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.56);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popup-town {
+  width: 628px;
+  height: 254px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 48px;
+}
+
+.closeBtn {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 45.51px;
+  top: 45.52px;
+  cursor: pointer;
+}
+
+.popup-town {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.popup-town__title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.popup-town__buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+}
+
+.popup-town__button {
+    display: flex;
+    background: none;
+    border: none;
+    column-gap: 18px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popup-town__button-txt {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--black-text);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.56);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.openBtnT {
+  cursor: pointer;
+}
+
+.popup-choice-town {
+  width: 1440px;
+  height: 566px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 64px;
+}
+
+.popup-choice-town__title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.popup-choice-town {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.popup-choice-town__list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 344px;
+  gap: 24px 32px;
+}
+
+.popup-choice-town__item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  max-width: 304px;
+}
+
+.popup-choice-town__letter {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--lightblue);
+}
+
+.popup-choice-town__names {
+  flex-direction: column;
+  display: flex;
+  row-gap: 8px;
+}
+
+.popup-choice-town__name {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+  cursor: pointer;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.popup-choice-town {
+  width: 1200px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .popup-choice-town {
+  width: 950px;
+  height: 566px;
+  padding: 36px;
+}
+
+.popup-choice-town__name {
+  font-size: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.popup-choice-town {
+  width: calc(100vw - 32px);
+  height: calc(100vh - 32px);
+  margin: 16px;
+  padding: 24px 16px;
+}
+
+.popup-choice-town__title {
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.popup-choice-town {
+  row-gap: 32px;
+}
+
+.popup-choice-town__list {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  overflow: scroll;
+  row-gap: 20px;
+}
+
+.popup-choice-town__item {
+  column-gap: 16px;
+  max-width: 100%;
+}
+
+.popup-choice-town__letter {
+  font-size: 28px;
+  line-height: 24px;
+}
+
+.popup-choice-town__names {
+  row-gap: 8px;
+}
+
+.popup-choice-town__name {
+  font-size: 22px;
+  line-height: 24px;
+}
+}
+
+
+@media (min-width: 440px) and (max-width: 767px) {
+.popup-town {
+  width: auto;
+  height: auto;
+  margin: auto 16px;
+  padding: 24px 16px;
+}
+
+.closeBtn {
+  right: 16px;
+  top: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.popup-town {
+  row-gap: 32px;
+}
+
+.popup-town__title {
+  font-size: 28px;
+  max-width: 80%;
+  line-height: 100%;
+}
+
+.popup-town__buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 100%;
+}
+
+.popup-town__button {
+    column-gap: 12px;
+}
+
+.popup-town__button svg{
+  width: 48px;
+  height: 48px;
+}
+
+.popup-town__button-txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.popup-choice-town {
+  width: calc(100vw - 32px);
+  height: calc(100vh - 32px);
+  margin: 16px;
+  padding: 24px 16px;
+}
+
+.popup-choice-town__title {
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.popup-choice-town {
+  row-gap: 32px;
+}
+
+.popup-choice-town__list {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  overflow: scroll;
+  row-gap: 20px;
+}
+
+.popup-choice-town__item {
+  column-gap: 16px;
+  max-width: 100%;
+}
+
+.popup-choice-town__letter {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.popup-choice-town__names {
+  row-gap: 8px;
+}
+
+.popup-choice-town__name {
+  font-size: 20px;
+  line-height: 24px;
+}
+}
+
+@media (max-width: 439px) {
+.popup-town {
+  width: auto;
+  height: auto;
+  margin: auto 16px;
+  padding: 24px 16px;
+}
+
+.closeBtn {
+  right: 16px;
+  top: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.popup-town {
+  row-gap: 32px;
+}
+
+.popup-town__title {
+  font-size: 28px;
+  max-width: 80%;
+  line-height: 100%;
+}
+
+.popup-town__buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 100%;
+}
+
+.popup-town__button {
+    column-gap: 12px;
+}
+
+.popup-town__button svg{
+  width: 48px;
+  height: 48px;
+}
+
+.popup-town__button-txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.popup-choice-town {
+  width: calc(100vw - 32px);
+  height: calc(100vh - 32px);
+  margin: 16px;
+  padding: 24px 16px;
+}
+
+.popup-choice-town__title {
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.popup-choice-town {
+  row-gap: 32px;
+}
+
+.popup-choice-town__list {
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  overflow: scroll;
+  row-gap: 20px;
+}
+
+.popup-choice-town__item {
+  column-gap: 16px;
+  max-width: 100%;
+}
+
+.popup-choice-town__letter {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.popup-choice-town__names {
+  row-gap: 8px;
+}
+
+.popup-choice-town__name {
+  font-size: 18px;
+  line-height: 24px;
+}
+}

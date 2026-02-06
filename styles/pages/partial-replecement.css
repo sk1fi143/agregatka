@@ -1,0 +1,752 @@
+.intro-row {
+  margin-top: 346px;
+}
+
+.replace {
+  overflow: hidden;
+  padding-bottom: 64px;
+  padding-top: 80px;
+}
+
+.when-p-replace {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 48px;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+
+.when-p-replace__title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.when-p-replace__img {
+  position: absolute;
+  bottom: -400px;
+  left: -246px;
+  border-radius: 50% 50% 0% 0%;
+}
+
+.when-p-replace__right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 128px;
+  height: 100%;
+}
+
+.when-p-replace__txt {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  max-width: 848px;
+  color: var(--white);
+  opacity: 64%;
+}
+
+.when-p-replace__plus {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.when-p-replace__plus-el {
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.when-p-replace__plus-el-txt {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.how-create {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  row-gap: 64px;
+}
+
+.how-create__title {
+  margin-left: 48px;
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: var(--black-text);
+}
+
+.how-create__cards {
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: var(--blue);
+}
+
+.how-create__card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  max-width: 848px;
+}
+
+.how-create__card-img {
+  width: 848px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.how-create__card-title {
+  font-family: "Stetica";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: var(--white);
+}
+
+.how-create__info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  width: 100%;
+}
+
+.how-create__card-txt {
+  font-family: "Stetica";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: var(--white);
+  opacity: 64%;
+}
+
+.how-create__card svg {
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.how-create__line {
+  width: 0px;
+  border: 0.5px solid #5181C9;
+}
+
+.when-p-replace__img {
+  width: 942px;
+  height: 942px;
+}
+
+.sert-slider-mob {
+  display: none !important;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .when-p-replace__title {
+    font-size: 52px;
+    line-height: 52px;
+    margin-right: 20px;
+  }
+
+  .when-p-replace__img {
+    bottom: -400px;
+    left: -246px;
+    opacity: 0.2;
+  }
+
+  .how-create__cards {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    width: 100%;
+  }
+
+  .how-create__card {
+    width: auto;
+  }
+
+  .how-create__card-img {
+    width: 100%;
+  }
+
+  .how-create__card-txt {
+    min-height: 128px;
+  }
+
+  .how-create__card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .intro-img {
+    top: -100px;
+    bottom: auto;
+  }
+
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .when-p-replace__title {
+    font-size: 52px;
+    line-height: 52px;
+    margin-right: 20px;
+  }
+
+  .when-p-replace__img {
+    bottom: -400px;
+    left: -446px;
+  }
+
+  .when-p-replace__txt {
+    font-size: 18px;
+  }
+
+  .when-p-replace__img {
+    bottom: -400px;
+    left: -246px;
+    opacity: 0.2;
+  }
+
+  .about-company__garant-scroll {
+    display: none;
+  }
+  .about-company__garant {
+    margin-top: 30px;
+    row-gap: 30px;
+  }
+
+  .when-p-replace__plus-el svg {
+    min-width: 64px;
+  }
+
+  .how-create__card {
+    width: 50%;
+    row-gap: 16px;
+  }
+
+  .how-create__card-img {
+    width: 100%;
+  }
+
+  .how-create__cards {
+    column-gap: 20px;
+    padding: 32px 24px;
+  }
+
+  .how-create__card-img {
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .how-create__card-txt {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+    .how-create {
+    row-gap: 32px;
+  }
+
+  .how-create__title {
+    font-size: 52px;
+    line-height: 52px;
+        margin-left: 32px;
+  }
+
+  .about-company__why-we-reason svg {
+    max-width: 64px;
+    max-height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+  }
+
+  .grid-adapt {
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-el {
+    width: auto;
+  }
+
+  .about-company__why-we-title {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+    .sert-slider-mob {
+      margin-top: 20px;
+      margin-left: 20px;
+      display: none !important;
+  }
+
+  .about-company__garant-scroll {
+    display: flex !important;
+  }
+
+  .about-company__garant-buttons {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: column;
+  }
+
+    .about-company__why-we-title {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  .grid-adapt {
+          display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+    .grid-el {
+    width: auto;
+    padding: 24px;
+  }
+
+  .about-company__why-we {
+    row-gap: 20px;
+  }
+
+  .about-company__why-we-reason-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .how-create__cards {
+    flex-direction: column;
+    row-gap: 36px;
+  }
+
+  .how-create__line {
+    width: 100%;
+    height: 0px;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+  }
+
+  .when-p-replace {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .when-p-replace__img {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50% 50% 0% 0%;
+    width: auto;
+    height: auto;
+  }
+
+  .when-p-replace__right-block {
+    row-gap: 64px;
+  }
+
+  .when-p-replace__plus-el svg {
+    min-width: 64px;
+  }
+
+  .how-create__card {
+    max-width: 100%;
+  }
+
+  .how-create__card-img {
+    width: 100%;
+  }
+
+      .how-create {
+    row-gap: 24px;
+  }
+
+  .how-create__title {
+    font-size: 46px;
+    line-height: 46px;
+        margin-left: 24px;
+  }
+
+  .when-p-replace__title {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+    .sert-slider-mob {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block !important;
+  }
+
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+      .consultation__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+  .replace {
+    padding-top: 36px;
+  }
+
+  .about-company__why-we-garant {
+    margin-top: 30px;
+  }
+
+  .about-company__why-we {
+    row-gap: 32px;
+  }
+
+  .grid-el {
+    padding: 24px;
+  }
+
+  .grid-adapt {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+      .about-company__why-we-title {
+    font-size: 36px;
+    line-height: 36px;
+        margin-left: 16px;
+  }
+
+  .when-p-replace {
+    padding: 0px 16px;
+  }
+
+      .sert-slider-mob {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block !important;
+  }
+
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+    .about-company__why-we-reason svg {
+    max-width: 104px;
+    max-height: 104px;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+  }
+
+  .when-p-replace {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .when-p-replace__img {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50% 50% 0% 0%;
+    width: auto;
+    height: auto;
+  }
+
+  .when-p-replace__right-block {
+    row-gap: 20px;
+  }
+
+  .when-p-replace__title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: var(--white);
+  }
+
+  .when-p-replace__txt {
+    font-size: 20px;
+  }
+
+  .when-p-replace__plus-el svg {
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .when-p-replace__plus-el-txt {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .how-create__cards {
+    padding: 24px 16px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .how-create__line {
+    width: 100%;
+  }
+
+  .how-create__card-img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .how-create__card-txt {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .how-create__card {
+    row-gap: 16px;
+  }
+
+  
+      .how-create {
+    row-gap: 16px;
+  }
+
+  .how-create__title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 16px;
+  }
+
+  
+  .when-p-replace__plus-el svg {
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .how-create__card-title {
+    font-size: 32px;
+  }
+
+        .about-company__why-we-reason svg {
+    max-width: 104px;
+    max-height: 104px;
+  }
+}
+
+@media (max-width: 439px) {
+  .replace {
+    padding-top: 36px;
+  }
+
+  
+  .grid-el {
+    padding: 16px;
+  }
+
+  .when-p-replace {
+    padding: 0px 16px;
+  }
+
+  .about-company__why-we-reasons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-company__why-we-reason {
+    width: 100%;
+    height: 420px;
+  }
+
+  .when-p-replace {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+      .sert-slider-mob {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block !important;
+  }
+
+  .when-p-replace__img {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50% 50% 0% 0%;
+    width: auto;
+    height: auto;
+  }
+
+  .when-p-replace__right-block {
+    row-gap: 20px;
+  }
+
+  
+  .how-create__card-title {
+    font-size: 28px;
+  }
+
+  .when-p-replace__title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--white);
+  }
+
+  .grid-el svg {
+    max-width: 64px;
+  }
+      .about-company__why-we-reason svg {
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+  .when-p-replace__txt {
+    font-size: 16px;
+  }
+
+  .when-p-replace__plus-el {
+    column-gap: 12px;
+  }
+
+  .when-p-replace__plus-el-txt {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .when-p-replace__plus-el svg {
+    min-width: 48px;
+    min-height: 48px;
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .when-p-replace__plus-el-txt {
+    font-size: 24px;
+  }
+
+  .about-company__why-we-reason-number {
+    top: 24px;
+    right: 24px;
+  }
+
+    .how-create__cards {
+    padding: 24px 16px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .how-create__line {
+    width: 100%;
+  }
+
+  .how-create__card-img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .how-create__card-txt {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .how-create__card {
+    row-gap: 16px;
+  }
+
+    
+  .how-create {
+    row-gap: 12px;
+  }
+
+  .how-create__title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 12px;
+  }
+
+    .about-company__why-we-garant {
+    margin-top: 30px;
+  }
+
+  .about-company__why-we {
+    row-gap: 24px;
+  }
+
+      .about-company__why-we-title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 12px;
+  }
+
+      .cost-title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+        .consultation__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .about-company__why-we-title {
+        font-size: 24px;
+        line-height: 24px;
+        margin-left: 12px;
+    }
+
+        .about-company__garant-title {
+                font-size: 24px;
+        line-height: 24px;
+    }
+}

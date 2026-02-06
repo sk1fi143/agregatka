@@ -1,0 +1,37 @@
+.dark-cons {
+  background-color: var(--black-text) !important;
+  border-bottom: 1px solid #616161;
+}
+
+.dark-title {
+  color: var(--white) !important;
+  max-width: 902px;
+}
+
+.dark-txt {
+  color: var(--white) !important;
+  opacity: 64%;
+  max-width: 800px;
+}
+
+.dark-inputs input {
+  background: none;
+}
+
+.dark-inputs input::placeholder {
+  color: var(--white) !important;
+  opacity: 64%;
+}
+
+.dark-inputs input {
+  color: var(--white) !important;
+}
+
+.dark-pol {
+  color: var(--white) !important;
+  opacity: 64%;
+}
+
+.dark-button-txt {
+  color: var(--white) !important;
+}

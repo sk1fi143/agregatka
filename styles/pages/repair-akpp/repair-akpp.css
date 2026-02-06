@@ -1,0 +1,51 @@
+@import "../../components/intro.css";
+@import "../oil-change/regular.css";
+@import "../../components/dark-footer.css";
+@import "../../components/consultation.css";
+@import "../../components/darkconclusion.css";
+@import "../../components/map.css";
+@import "../diagnostic/technologies.css";
+@import "../../components/why-we-garant.css";
+@import "../../components/cost.css";
+@import "./repair-cases.css";
+@import "../../components/discount.css";
+@import "./warranty.css";
+@import "./works.css";
+@import "./scheme.css";
+@import "../../components/markstypes.css";
+
+.consultation {
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #d4d4d4;
+}
+
+.about-company__why-we {
+    padding: 120px 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.about-company__why-we {
+    padding: 80px 0;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.about-company__why-we {
+    padding: 80px 0;
+}
+
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.about-company__why-we {
+    padding: 40px 0;
+}
+}
+
+@media (max-width: 439px) {
+.about-company__why-we {
+    padding: 40px 0;
+}
+}

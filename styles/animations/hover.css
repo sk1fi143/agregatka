@@ -1,0 +1,66 @@
+.about-company__town-block:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+.services-header__page:hover {
+  background-color: #F9F9FA;
+  color: var(--blue);
+}
+
+.services-header__page:hover span {
+  background-color: #F9F9FA;
+  color: var(--blue);
+}
+
+.services-header__page-d {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    align-items: center;
+    padding: 0px 12px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.main-but-hob:hover {
+  opacity: 72%;
+  transition: opacity 0.5s ease;
+}
+
+.header-container__top-container-button:hover {
+  background-color: #4771B0;
+  transition: background-color 0.5s ease;
+}
+
+.intro-row:hover {
+    opacity: 72%;
+  transition: opacity 0.5s ease;
+}
+
+.footer-container__left-row:hover {
+    opacity: 72%;
+  transition: opacity 0.5s ease;
+}
+
+.popup-town__button:hover {
+    opacity: 72%;
+  transition: opacity 0.5s ease;
+}
+
+.repair__custom-prev:hover,
+.repair__custom-next:hover,
+.popupFOS__send:hover,
+.openFOSBtn:hover,
+.advantages__row-buttons-btn:hover ,
+.advantages__row-buttons-btn:hover,
+.map-right__container-items_col-row:hover,
+.dark-footer__slider-arrows-btn:hover,
+.markstypes-wrapper__button:hover,
+.scheme-nav-buttons-button:hover,
+.scheme-nav-buttons-button:hover,
+.works-head__buttons-button:hover,
+.about-company__production-button:hover,
+.footer-container__form-form-btn:hover  {
+    opacity: 72%;
+  transition: opacity 0.5s ease;
+}

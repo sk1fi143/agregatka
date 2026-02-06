@@ -1,0 +1,474 @@
+.markstypes {
+    width: 100%;
+    padding: 160px 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    align-items: center;
+    background: var(--black-text);
+}
+
+.markstypes-title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 72px;
+    color: var(--white);
+    text-align: center;
+}
+
+.markstypes-tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.markstypes-tabs__input {
+    display: none;
+}
+
+.markstypes-tabs__label {
+    text-align: center;
+    width: 320px;
+    height: 40px;
+    border-bottom: 1px solid #616161;
+    padding-bottom: 16px;
+    font-family: "Stetica";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.markstypes-tabs__input:checked + .markstypes-tabs__label {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.markstypes-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 100%;
+}
+
+.wrapper-tab2 {
+    display: none;
+}
+
+.markstypes-wrapper__container {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.markstypes-wrapper__container-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF14;
+    height: 332px;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.markstypes-wrapper__container-item-name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: var(--blue);
+    padding: 8px 16px;
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white);
+}
+
+.markstypes-wrapper__button {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    column-gap: 18px;
+        margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+
+.markstypes-wrapper__button-circle {
+    width: 64px;
+    height: 64px;
+    background: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.markstypes-wrapper__button-circle-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.markstypes-wrapper__button-text {
+    font-family: 'Stetica';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+.markstypes {
+    padding: 80px 48px;
+    row-gap: 40px;
+}
+
+.markstypes-title {
+    font-size: 60px;
+    line-height: 100%;
+}
+
+.markstypes-tabs__label {
+    width: 280px;
+    height: 40px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.markstypes-wrapper {
+    row-gap: 16px;
+    width: 100%;
+}
+
+.markstypes-wrapper__container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.markstypes-wrapper__container-item {
+    height: 300px;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.markstypes-wrapper__container-item-name {
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.markstypes-wrapper__button {
+    column-gap: 18px;
+    margin-top: 40px;
+}
+
+.markstypes-wrapper__button-circle {
+    width: 64px;
+    height: 64px;
+}
+
+.markstypes-wrapper__button-circle-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.markstypes-wrapper__button-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+.markstypes {
+    padding: 60px 36px;
+    row-gap: 40px;
+}
+
+.markstypes-title {
+    font-size: 52px;
+    line-height: 100%;
+}
+
+.markstypes-tabs__label {
+    width: 260px;
+    height: 40px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.markstypes-wrapper {
+    row-gap: 16px;
+    width: 100%;
+}
+
+.markstypes-wrapper__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.markstypes-wrapper__container-item {
+    height: 300px;
+}
+
+.markstypes-wrapper__container-item:nth-last-child(1), .markstypes-wrapper__container-item:nth-last-child(2) {
+    display: none;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.markstypes-wrapper__container-item-name {
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.markstypes-wrapper__button {
+    column-gap: 18px;
+    margin-top: 40px;
+}
+
+.markstypes-wrapper__button-circle {
+    width: 64px;
+    height: 64px;
+}
+
+.markstypes-wrapper__button-circle-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.markstypes-wrapper__button-text {
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.markstypes {
+    padding: 48px 0;
+    row-gap: 40px;
+}
+
+.markstypes-title {
+    font-size: 42px;
+    line-height: 100%;
+    margin: 0px 26px;
+    text-align: center;
+}
+
+.markstypes-tabs {
+    width: 100%;
+    padding: 0 26px;
+    margin-top: 20px;
+}
+
+.markstypes-tabs__label {
+    width: 50%;
+    height: 40px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.markstypes-wrapper {
+    row-gap: 0;
+    width: 100%;
+}
+
+.markstypes-wrapper__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.markstypes-wrapper__container-item {
+    height: 240px;
+    border: 0.5px solid #616161;
+}
+
+.markstypes-wrapper__container-item:nth-last-child(1), .markstypes-wrapper__container-item:nth-last-child(2) {
+    display: none;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.markstypes-wrapper__container-item-name {
+    display: none;
+}
+
+.markstypes-wrapper__button {
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 12px;
+    margin: 48px 16px 0 16px;
+    height: 56px;
+}
+
+.markstypes-wrapper__button-circle {
+    display: none;
+}
+
+.markstypes-wrapper__button-text {
+    font-size: 20px;
+    color: var(--black-text);
+    line-height: 24px;
+}
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+.markstypes {
+    padding: 48px 0;
+    row-gap: 20px;
+}
+
+.markstypes-title {
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0px auto 0 16px;
+    text-align: left;
+}
+
+.markstypes-tabs {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 20px;
+}
+
+.markstypes-tabs__label {
+    width: 50%;
+    height: 40px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.markstypes-wrapper {
+    row-gap: 0;
+    width: 100%;
+}
+
+.markstypes-wrapper__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+
+.markstypes-wrapper__container-item {
+    height: 188px;
+    border: 0.5px solid #616161;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.markstypes-wrapper__container-item-name {
+    display: none;
+}
+
+.markstypes-wrapper__button {
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 12px;
+    margin: 48px 16px 0 16px;
+    height: 48px;
+}
+
+.markstypes-wrapper__button-circle {
+    display: none;
+}
+
+.markstypes-wrapper__button-text {
+    font-size: 16px;
+    color: var(--black-text);
+    line-height: 24px;
+}
+}
+
+@media (max-width: 439px) {
+.markstypes {
+    padding: 48px 0;
+    row-gap: 20px;
+}
+
+.markstypes-title {
+    font-size: 32px;
+    line-height: 100%;
+    margin: 0px 16px;
+    text-align: left;
+}
+
+.markstypes-tabs {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 20px;
+}
+
+.markstypes-tabs__label {
+    width: 50%;
+    height: 40px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.markstypes-wrapper {
+    row-gap: 0;
+    width: 100%;
+}
+
+.markstypes-wrapper__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+
+.markstypes-wrapper__container-item {
+    height: 188px;
+    border: 0.5px solid #616161;
+}
+
+.markstypes-wrapper__container-item-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.markstypes-wrapper__container-item-name {
+    display: none;
+}
+
+.markstypes-wrapper__button {
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 12px;
+    margin: 48px 16px 0 16px;
+    height: 48px;
+}
+
+.markstypes-wrapper__button-circle {
+    display: none;
+}
+
+.markstypes-wrapper__button-text {
+    font-size: 16px;
+    color: var(--black-text);
+    line-height: 24px;
+}
+}

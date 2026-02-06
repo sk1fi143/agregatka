@@ -1,0 +1,143 @@
+@import '../components/map.css';
+@import '../components/discount.css';
+@import '../components/consultation.css';
+@import '../components/footer.css';
+
+.discount {
+    border-top: 1px solid #5181C9;
+}
+
+.discount-wrapper {
+    padding: 38px 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-left: 48px;
+    padding-top: 52px;
+    row-gap: 24px;
+}
+
+.contacts-title {
+    font-family: "Stetica";
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    margin-left: -8px;
+    color: var(--black-text);
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .contacts {
+        padding-left: 48px;
+        padding-top: 52px;
+        row-gap: 20px;
+    }
+
+    .contacts-title {
+        font-size: 72px;
+        line-height: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .contacts {
+        padding-left: 36px;
+        padding-top: 40px;
+        row-gap: 20px;
+    }
+
+    .contacts-title {
+        font-size: 64px;
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contacts {
+        padding-left: 26px;
+        padding-top: 30px;
+        row-gap: 20px;
+    }
+
+    .contacts-title {
+        font-size: 52px;
+        line-height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .discount {
+        margin-top: 40px;
+    }
+
+    .map {
+        margin-top: 60px;
+    }
+
+    .discount-wrapper {
+        row-gap: 30px;
+        padding: 0 26px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+    .contacts {
+        padding-left: 16px;
+        padding-top: 30px;
+        row-gap: 20px;
+    }
+
+    .map {
+        margin-top: 40px;
+    }
+
+    .discount {
+        margin-top: 40px;
+    }
+
+    .contacts-title {
+        font-size: 44px;
+        margin-left: 0;
+        line-height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .discount-wrapper {
+        row-gap: 20px;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 439px) {
+    .contacts {
+        padding-left: 16px;
+        padding-top: 30px;
+        row-gap: 20px;
+    }
+
+    .discount {
+        margin-top: 30px;
+    }
+
+    .discount-wrapper {
+        row-gap: 20px;
+        padding: 0 16px;
+    }
+
+    .map {
+        margin-top: 40px;
+    }
+
+    .contacts-title {
+        font-size: 38px;
+        line-height: 100%;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+}
